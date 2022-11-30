@@ -52,7 +52,7 @@ export default function MetaMaskAuth({ onAddressChanged }) {
 
   return userAddress ? (
     <div>
-      Connected with <Address userAddress={userAddress} />
+      Address added to secret database: <Address userAddress={userAddress} />
     </div>
   ) : (
      <Connect setUserAddress={setUserAddress}/>
